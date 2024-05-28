@@ -225,13 +225,17 @@ If obj_ref = lv_scr_act(), then the whole screen will be used.
 
 *LV_ALIGN_...* is the type of alignment; inside another object or next to the reference, for example IN_TOP_LEFT, OUT_BOTTOM_MID, ...
 
+
+
 *x_ofs, y_ofs* allow you to shift the object by a specified number of pixels after aligning it
 
 Label positioning based on alignment is both a simple and complicated thing to understand, so here I have given something you can refer to while modifying the position of the various labels and objects.
 
 You can also refer here to LVGL's documentation of coordinate system https://docs.lvgl.io/master/overview/coords.html
 
-List of the possible alignments: https://docs.lvgl.io/latest/en/html/widgets/obj.html#alignment
+List and picture of the possible alignments: https://docs.lvgl.io/latest/en/html/widgets/obj.html#alignment
+
+image:https://lvgl.io/docs/latest/en/html/_images/align.png[LVGL align representation,title="LVGL align representation",width=500]
 
 It is however recommended that you use the first method to set the location
 
